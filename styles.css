@@ -1,0 +1,92 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=465&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    min-height: 100vh;
+    background-position: center;
+    flex: 1;
+
+  }
+  
+  #container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-image: linear-gradient(rgba(233, 200, 200, 0.3), rgba(0, 0, 0, 0.6));
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  #header {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+  }
+  
+  #input {
+    background-color: rgba(65, 39, 99, 0.3);
+    border-radius: 20px;
+    border: 3px solid #FCDDB0;
+    padding: 15px;
+    font-size: 20px;
+    color: whitesmoke;
+    }
+  
+  #input:focus {
+    background-color: rgba(65, 39, 99, 0.3);
+  }
+  
+  #when-where {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #city {
+    color: #FFF;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  #date {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: bold;
+    }
+  
+  #now {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+  #temperature {
+    color: #FFF;
+    font-size: 70px;
+    font-weight: bold;
+    text-shadow: 5px 5px black;
+    margin: 0;
+  }
+  
+  #feelsLike {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  #conditions {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  #variation {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
